@@ -414,3 +414,30 @@ figure img {
     width: 30%;
 }
 /* Fim da área de compra */
+
+footer {
+    color: #fff;
+    position: relative;
+    top: 0;
+}
+
+footer article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h5 {
+    color: rgb(82, 82, 243);
+}
+
+footer a, footer address {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+}
