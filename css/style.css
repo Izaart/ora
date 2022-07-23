@@ -8,6 +8,8 @@
     src: url(../fonts/gotham/GothamRounded-Book.otf);
 }
 
+/* global */
+
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +23,15 @@ body {
     background-color: #111111;
 }
 
+span {
+    color: darkcyan;
+}
+
 /* cabeçalho */
 
 /* texto */
 
-p {
+.slogan {
     font-family: 'gotham';
     font-size: 18px;
     color: #fff;
@@ -129,8 +135,112 @@ p {
     margin: 15px;
 }
 
-span {
-    color: darkcyan;
+/* main */
+
+/* video */
+iframe {
+    width: 80%;
+    height: 80vh;
 }
 
-/* Fim cabeçalho */
+h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'lemon';
+}
+
+.comprar {
+    background: rgb(26, 76, 102);
+    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
+    width: 22%;
+    padding: 10px;
+    font-family: 'lemon';
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+/* podcast */
+
+.podcast-1 {
+    list-style: none;
+    display: block;
+    color: #ffffff;
+}
+
+.spot {
+    display: block;
+    width: 15%;
+    height: 75%;
+    margin-right: 0.9rem;
+}
+
+.podcast {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.podcast h6 {
+    font-size: 0.8rem;
+    font-family: 'gotham';
+}
+
+.podcast a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.container-balao {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(26, 121, 168, 1) 50%, rgba(26, 76, 102, 1) 100%);
+    border-radius: 70px;
+    min-height: 300px;
+    width: 85%;
+    margin: auto;
+}
+
+.divisa {
+    border-right: solid 3px black;
+    min-height: 130px;
+}
+
+.title {
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'lemon';
+}
+
+.descricao {
+    width: 60%;
+    font-size: 1rem;
+    font-family: 'gotham';
+    margin: 30px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+/* form */
+
+/* rodapé */
+
+footer img {
+    max-width: 250px;
+}
+
+footer figure.col-6 {
+    margin: 0;
+}
+
+.text-light a {
+    text-decoration: none;
+    color: #fff;
+}
