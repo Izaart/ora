@@ -38,14 +38,16 @@ p {
 /* imagens  */
 
 #logo {
-    width: 250px;
+    width: 290px;
     position: relative;
+    bottom: 0.5vh;
     bottom: 8vh;
 }
 
 #formata {
     width: 950px;
     position: absolute;
+    top: 2.5vh;
     right: 5rem
 }
 
