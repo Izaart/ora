@@ -152,7 +152,7 @@ h3 {
 .comprar {
     background: rgb(26, 76, 102);
     background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    width: 22%;
+    width: 22vw;
     padding: 10px;
     font-family: 'lemon';
     font-size: 20px;
@@ -226,6 +226,24 @@ h3 {
     margin: 30px;
     margin-right: 70px;
     text-align: justify;
+}
+
+/* valores */
+
+.ml {
+    margin-left: 10vw;
+}
+
+.curso_title {
+    text-align: center;
+    color: #fff;
+    font-family: 'lemon';
+}
+
+.curso_texto {
+    display: flex;
+    align-items: center;
+    font-family: 'gotham';
 }
 
 /* form */
