@@ -18,15 +18,63 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'gotham', sans-serif;
-    background-color: #111111 !important;
-    padding: 60px;
+    background-color: #111111;
 }
+
+/* cabeçalho */
+
+/* texto */
+
+p {
+    font-family: 'gotham';
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    bottom: 17vh;
+    left: 2rem;
+}
+
+/* imagens  */
+
+#logo {
+    width: 250px;
+    position: relative;
+    bottom: 8vh;
+}
+
+#formata {
+    width: 950px;
+    position: absolute;
+    right: 5rem
+}
+
+/* Formatação das imagens social */
+
+.social {
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 3vh;
+    left: 4rem;
+}
+
+.social a {
+    margin: 0;
+}
+
+.social-icon {
+    width: 33px;
+}
+
+/* cronometro */
 
 .days {
     display: inline;
     position: relative;
-    top: 145px;
-    right: 10px;
+    top: 8rem;
+    right: 30px;
     font-size: 22px;
     color: #fff;
     font-family: 'lemon';
@@ -35,8 +83,8 @@ body {
 .horas {
     display: inline;
     position: relative;
-    top: 145px;
-    left: 53px;
+    top: 8rem;
+    left: 20px;
     font-size: 22px;
     color: #fff;
     font-family: 'lemon';
@@ -45,8 +93,8 @@ body {
 .min {
     display: inline;
     position: relative;
-    top: 145px;
-    left: 85px;
+    top: 8rem;
+    left: 60px;
     font-size: 22px;
     color: #fff;
     font-family: 'lemon';
@@ -55,8 +103,8 @@ body {
 .seg {
     display: inline;
     position: relative;
-    top: 145px;
-    left: 102px;
+    top: 8rem;
+    left: 75px;
     font-size: 22px;
     color: #fff;
     font-family: 'lemon';
@@ -71,13 +119,6 @@ body {
     padding: 100px;
 }
 
-article,
-.countdown {
-    margin-left: 355px;
-    text-align: center;
-    font-size: 35px;
-}
-
 .time {
     display: flex;
     flex-direction: column;
@@ -86,405 +127,8 @@ article,
     margin: 15px;
 }
 
-p {
-    font-family: 'gotham';
-    font-size: 18px;
-    color: #fff;
-    text-align: left;
-    margin-top: 80px;
-    margin-left: -350px;
-    width: 50%;
-}
-
-.descomplicar {
-    position: relative;
-    bottom: 50px;
-}
-
 span {
     color: darkcyan;
 }
 
-picture img {
-    width: 30%;
-    height: auto;
-    position: relative;
-    bottom: 400px;
-    right: 760px;
-}
-
-#formata {
-    position: relative;
-    width: 90%;
-    bottom: 595px;
-    left: 10px;
-    border-radius: 15px;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    margin-left: 80px;
-}
-
-/* Formulario */
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-    align-items: center;
-}
-
-.campo input {
-    letter-spacing: 2px;
-    width: 100%;
-    color: white;
-    font-size: 15px;
-    border: 1px solid black;
-    border-radius: 100px;
-    box-shadow: #5b5b5b 2px 2px 5px;
-    width: 300px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 940px;
-    bottom: 905px;
-    padding: 10px 10px;
-   
-    background-color: #111111;
-}
-
-.campo label {
-    color: #ffffff;
-    font-weight: bolder;
-    display: block;
-    font-size: 17px;
-    position: relative;
-    left: 950px;
-    padding: 2px 1px;
-    bottom: 910px;
-    text-align: left;
-    font-family: 'gotham';
-
-}
-
-h4{
-color: #fff;
-font-size: 1.5rem;
-position: relative;
-top: 120px;
-}
-
-.vitor{
-position: relative;
-top: 80px;
-right: 50px;
-width: 28%;
-}
-
-input,
-button {
-    border-radius: 5px;
-    padding: 3px;
-}
-
-.correcao {
-    margin-top: 10px;
-}
-
-a button {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-div button {
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    color: #fff;
-    font-family: 'lemon';
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 120px;
-    position: relative;
-    left: 55px;
-    bottom: 20px;
-    width: 50%;
-    margin-top: 1vh;
-
-}
-
-#enviar {
-    width: 100%;
-    height: 5vh;
-    position: relative;
-    bottom: 900px;
-    left: 825px;
-    border-radius: 15px;
-}
-
-
-/* Formatação das imagens social */
-.social {
-    width: 3%;
-    position: relative;
-    bottom: 500px;
-    right: 840px;
-    padding: 1px;
-
-}
-
-.social-2 {
-    width: 3%;
-    position: relative;
-    bottom: 500px;
-    right: 755px;
-    padding: 1px;
-}
-
-.social-3 {
-    width: 33px;
-    position: relative;
-    bottom: 500px;
-    right: 925px;
-    padding: 1px;
-}
-
-/* Fim da formatação dos icones sociais */
-
-/* Inicio da área de video */
-
-h3 {
-    color: #fff;
-    font-size: 30px;
-    font-family: 'lemon';
-    position: relative;
-    bottom: 350px;
-    left: auto;
-    text-align: center;
-}
-
-iframe {
-    position: relative;
-    bottom: 400px;
-    width: 60%;
-    height: 80vh;
-    left: 270px;
-    background-color: #fff;
-}
-
-.comprar {
-    background: rgb(186, 175, 188);
-    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(26, 121, 168, 1) 50%, rgba(26, 76, 102, 1) 100%);
-    position: relative;
-    bottom: 2200px;
-    left: 360px;
-    width: 20%;
-    padding: 10px;
-    font-family: 'lemon';
-
-}
-
-.compre {
-    width: 22%;
-    height: 50px;
-    font-size: 20px;
-    font-family: 'lemon';
-    position: absolute;
-    top: 1430px;
-    left: 475px;
-    border-radius: 15px;
-    padding: 15px;
-
-}
-
-a.comprar {
-    background-color: #ffffff;
-}
-
-/* Fim da área de video */
-
-/*Área do podcast */
-
-.podcast-1 {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-
-    left: 200px;
-    bottom: 210px;
-    color: #ffffff;
-    padding: 0 40px;
-}
-
-.spot {
-    display: flex;
-    width: 16%;
-    height: 75%;
-    position: relative;
-    left: 20px;
-    top: 42px;
-
-}
-
-.container {
-    color: #fff;
-    position: relative;
-    bottom: 190px;
-    left: 210px;
-    display: flex;
-    padding: 100px;
-    background: rgb(186, 175, 188);
-    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(26, 121, 168, 1) 50%, rgba(26, 76, 102, 1) 100%);
-    border-radius: 70px;
-    height: 300px;
-    width: 70%;
-
-}
-
-a h6 {
-    position: relative;
-    left: 82px;
-    top: 5px;
-    font-size: 14px;
-    font-family: 'gotham';
-
-}
-
-.descricao {
-    width: 60%;
-    position: relative;
-    left: 400px;
-    bottom: 130px;
-    font-family: 'gotham';
-
-}
-
-.descricao-2 {
-    position: relative;
-    left: 285px;
-    top: 20px;
-    width: 60%;
-
-}
-
-.title {
-    border-right: solid 3px black;
-    height: 130px;
-    position: relative;
-    padding: 10px;
-    padding-top: 1px;
-
-}
-
-h2 {
-    position: relative;
-    left: 10px;
-    bottom: 50px;
-    font-family: 'lemon';
-    font-size: 18px;
-
-}
-
-/*  Fim da área do podcast */
-
-/* Área de compra */
-
-.curso_title {
-    text-align: center;
-    color: #fff;
-    font-family: 'lemon';
-    position: absolute;
-    top: 2050px;
-    left: 100px;
-
-}
-
-.curso_botao {
-    width: 22%;
-    color: #fff;
-    position: absolute;
-    top: 2380px;
-    left: 135px;
-    padding: 10px;
-    background: rgb(26, 76, 102);
-    background: linear-gradient(90deg, rgba(26, 76, 102, 1) 31%, rgba(26, 121, 168, 1));
-    font-family: 'lemon';
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.curso_texto {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 2050px;
-    left: 450px;
-    font-family: 'gotham';
-}
-
-figure img {
-    position: relative;
-    bottom: 40px;
-    left: 1000px;
-}
-
-/* Fim da área de compra */
-
-/* Rodapé */
-footer {
-    color: #fff;
-    position: relative;
-    top: -750px;
-}
-
-footer article {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer section {
-    display: flex;
-    flex-direction: column;
-}
-
-footer h5 {
-    color: darkcyan;
-    font-size: 1.3rem;
-
-    position: relative;
-    top: 70px;
-    right: 25px;
-}
-
-footer a,
-footer address {
-    font-size: 1.1rem;
-    text-align: left;
-    position: relative;
-    top: 80px;
-    right: 40px;
-}
-
-.footer_img {
-    width: 55%;
-    position: relative;
-    right: 380px;
-    top: 30px;
-
-}
-
-.endereco {
-    position: relative;
-    left: 40px;
-    top: 50px;
-    font-size: 1.1rem;
-}
-
-/* Fim do rodapé  */
-@media screen and (min-width: 300px) {}
+/* Fim cabeçalho */

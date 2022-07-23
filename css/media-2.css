@@ -1,18 +1,10 @@
-html, body, .wrapper {
-    width: 100%;
-    min-height: 100vh;
-  }
-  main{
-    flex: 1;
-  }
-  .wrapper-2 { 
-    display: flex;
-    position: relative;
-    bottom: 250px;
-    right: 100px;
-   }
-  
-  .cell-2 {
+.wrapper {
+  position: relative;
+  bottom: 13vh;
+  left: 1.5rem;
+}
+
+.cell-2 {
     display: table-cell;
     margin: 0;
     padding: 0;
@@ -27,12 +19,3 @@ html, body, .wrapper {
   }
   
   .cntSeparator { display: none; }
-  
-  .cntDigit {
-    margin-top: 18px !important;
-  
-  }
-  
-    .cntDigit#cnt_0 { margin-left: 52px; }
-    .cntDigit#cnt_2 { margin-left: 7px; }
-  

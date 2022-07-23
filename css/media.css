@@ -1,15 +1,6 @@
-html, body, .wrapper {
-  width: 100%;
-  min-height: 100vh;
-}
-main{
-  flex: 1;
-}
 .wrapper { 
   display: flex;
-  margin-left: -410px;
-  margin-top:  -940px;
- }
+}
 
 .cell {
   display: table-cell;
@@ -19,18 +10,4 @@ main{
   vertical-align: middle;
 }
 
-#holder {
-  width: 603px;
-  height: 383px;
-  margin: auto;
-}
-
 .cntSeparator { display: none; }
-
-.cntDigit {
-  margin-top: 18px !important;
-
-}
-
-  .cntDigit#cnt_0 { margin-left: 52px; }
-  .cntDigit#cnt_2 { margin-left: 7px; }
